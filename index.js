@@ -102,4 +102,12 @@ function checkwin(currentClass){
 
 }
 
-//check draw
+//dark theme
+function darkfunction(){
+    theme.classList.add('dark');
+
+}
+function whitefunction(){
+    theme.classList.remove('dark');
+}
+
